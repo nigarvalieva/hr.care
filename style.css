@@ -50,7 +50,9 @@ header {
 }
 
 .section-one {
-    padding: 75px 0 297px 0;
+    display: flex;
+    flex-direction: row;
+    padding: 75px 0 0 0;
     background-color: #0198A5;
     width: 99.vw;
     margin: 0 -100px;
@@ -69,6 +71,7 @@ header {
 }
 
 .search-card {
+    position: relative;
     background-color: #fff;
     padding: 40px 50px;
     width: 80vw;
@@ -377,7 +380,7 @@ header {
 }
 
 .section-four-aside-txt h3 {
-    margin: 0;
+    margin: 0 0 0 17px;
     font-size: 18px;
 }
 
@@ -393,8 +396,12 @@ header {
 }
 
 .section-four-aside-list h3 {
-    margin: 0;
+    margin: 0 0 17px 0;
     font-size: 18px;
+}
+
+.section-four-aside-list img {
+    cursor: pointer;
 }
 
 .section-five {
@@ -424,6 +431,22 @@ header {
 .section-five-content-txt h3 {
     color: white;
     margin-bottom: 6px;
+}
+
+.section-five-directions{
+    cursor: pointer;
+    display: flex;
+    justify-content: end;
+}
+
+.deg{
+    margin-left: 10px;
+    transform: rotate(180deg);
+}
+
+.section-three-carousel-directions{
+    margin-top: 15px;
+    cursor: pointer;
 }
 
 footer {
