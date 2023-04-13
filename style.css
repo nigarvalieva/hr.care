@@ -273,6 +273,7 @@ header {
 }
 
 .section-three-carousel-item {
+    transition: 800ms;
     width: 27vw;
     box-shadow: 0px 6px 26px rgba(0, 0, 0, 0.06);
     padding: 30px 30px 35px 30px;
@@ -325,14 +326,14 @@ header {
 .section-four {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    align-items: flex-start;
     margin-top: 144px;
 }
 
 .section-four-main {
     display: flex;
     flex-direction: row;
+    align-items: center;
 }
 
 .section-four-main-txt {
@@ -368,12 +369,22 @@ header {
     line-height: 120%;
 }
 
+.section-four-aside{
+    align-items: end;
+    display: flex;
+    justify-content: end;
+    position: relative;
+    flex-direction: column;
+    width: 40vw;
+    margin-top: -500px;
+}
+
 .section-four-aside-txt {
+    width: 30%;
     display: flex;
     flex-direction: row;
     align-items: center;
     padding: 17px;
-    margin: -500px 0 0 -100px;
     background-color: white;
     box-shadow: 0px 7.78125px 33.7188px rgba(0, 0, 0, 0.06);
     border-radius: 10px;
@@ -385,11 +396,11 @@ header {
 }
 
 .section-four-aside-list {
+    margin-top: 350px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     padding: 17px;
-    margin: 350px 0 0 -100px;
     background-color: white;
     box-shadow: 0px 7.78125px 33.7188px rgba(0, 0, 0, 0.06);
     border-radius: 10px;
@@ -498,6 +509,8 @@ footer {
 
 .subscribe-content-your-info input {
     border: none;
+    height: 4vw;
+    width: 90%;
 }
 
 .subscribe-content-your-info button {
@@ -508,11 +521,19 @@ footer {
     border: none;
 }
 
+.logo{
+    cursor: pointer;
+}
+
 .footer-nav-menu {
     width: 25vw;
     display: flex;
     justify-content: space-between;
     flex-direction: row;
+}
+
+.footer-menu-item{
+    cursor: pointer;
 }
 
 .social-medias {
@@ -521,6 +542,10 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.social-medias img:hover{
+    cursor: pointer;
 }
 
 hr {
