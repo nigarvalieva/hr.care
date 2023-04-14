@@ -1,3 +1,33 @@
 @media (max-width: 1209px) {
     
+    .section-one img{
+        width: 45vw;
+    }
+
+    .section-one-text h1{
+        font-size: 78px;
+    }
+
+    .search-card{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .section-four-aside {
+        align-items: end;
+        display: flex;
+        justify-content: end;
+        position: relative;
+        flex-direction: column;
+        width: 45vw;
+        margin-top: -504px;
+    }
+
+    .section-four-main-txt{
+        margin-left: 100px;
+    }
+
+    .section-four-main-txt h1{
+        font-size: 24px;
+    }
 }

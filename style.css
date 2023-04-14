@@ -10,6 +10,14 @@ body {
     font-size: 18px;
 }
 
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
 button,
 input {
     font-family: Outfit;
@@ -38,6 +46,7 @@ header {
 
 .menu-item {
     margin-right: 48px;
+    cursor: pointer;
 }
 
 .menu-btn {
@@ -54,7 +63,6 @@ header {
     flex-direction: row;
     padding: 75px 0 0 0;
     background-color: #0198A5;
-    width: 99.vw;
     margin: 0 -100px;
     color: white;
 }
@@ -72,8 +80,10 @@ header {
 
 .search-card {
     position: relative;
+    display: flex;
+    flex-direction: column;
     background-color: #fff;
-    padding: 40px 50px;
+    padding: 30px 40px;
     width: 80vw;
     box-shadow: 0px 6px 26px rgba(0, 0, 0, 0.06);
     margin: -145px 0 140px 0;
@@ -188,7 +198,7 @@ header {
 
 .section-two-main {
     background-color: #0198A5;
-    width: 99.vw;
+    width: 100%;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -421,6 +431,11 @@ header {
     margin: 184px 0 150px 0;
 }
 
+.section-five h1{
+    margin-left: 100px;
+    width: 35vw;
+}
+
 .section-five-content {
     display: flex;
     flex-direction: row;
@@ -445,6 +460,7 @@ header {
 }
 
 .section-five-directions{
+    margin-right: 15px;
     cursor: pointer;
     display: flex;
     justify-content: end;
